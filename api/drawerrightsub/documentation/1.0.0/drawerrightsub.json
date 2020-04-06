@@ -531,8 +531,7 @@
             "required": [
               "id",
               "name",
-              "icon",
-              "drawer_right_sub"
+              "icon"
             ],
             "properties": {
               "id": {
@@ -550,7 +549,7 @@
               "drawerrightsub_id": {
                 "type": "string"
               },
-              "drawer_right_sub": {
+              "is_drawer_right_sub": {
                 "type": "boolean"
               }
             }

@@ -512,8 +512,7 @@
         "required": [
           "id",
           "name",
-          "icon",
-          "drawer_right_sub"
+          "icon"
         ],
         "properties": {
           "id": {
@@ -552,7 +551,7 @@
               }
             }
           },
-          "drawer_right_sub": {
+          "is_drawer_right_sub": {
             "type": "boolean",
             "default": true
           }
@@ -561,8 +560,7 @@
       "NewDrawerright": {
         "required": [
           "name",
-          "icon",
-          "drawer_right_sub"
+          "icon"
         ],
         "properties": {
           "name": {
@@ -580,7 +578,7 @@
           "drawerrightsub_id": {
             "type": "string"
           },
-          "drawer_right_sub": {
+          "is_drawer_right_sub": {
             "type": "boolean",
             "default": true
           }

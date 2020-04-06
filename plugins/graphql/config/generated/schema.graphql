@@ -110,7 +110,7 @@ type Drawerright {
   icon: String!
   to: String
   drawerrightsub_id: Drawerrightsub
-  drawer_right_sub: Boolean!
+  is_drawer_right_sub: Boolean
 }
 
 input DrawerrightInput {
@@ -118,7 +118,7 @@ input DrawerrightInput {
   icon: String!
   to: String
   drawerrightsub_id: ID
-  drawer_right_sub: Boolean!
+  is_drawer_right_sub: Boolean
 }
 
 """Navigation Sub Drawer Right"""
@@ -149,7 +149,7 @@ input editDrawerrightInput {
   icon: String
   to: String
   drawerrightsub_id: ID
-  drawer_right_sub: Boolean
+  is_drawer_right_sub: Boolean
 }
 
 input editDrawerrightsubInput {

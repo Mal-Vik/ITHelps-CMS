@@ -29,9 +29,8 @@
       "model": "drawerrightsub",
       "via": "drawerright_id"
     },
-    "drawer_right_sub": {
+    "is_drawer_right_sub": {
       "default": true,
-      "required": true,
       "type": "boolean"
     }
   }

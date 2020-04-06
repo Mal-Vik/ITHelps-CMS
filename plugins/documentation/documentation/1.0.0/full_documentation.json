@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/06/2020 9:26:43 PM"
+    "x-generation-date": "04/06/2020 11:09:08 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3669,8 +3669,7 @@
         "required": [
           "id",
           "name",
-          "icon",
-          "drawer_right_sub"
+          "icon"
         ],
         "properties": {
           "id": {
@@ -3709,7 +3708,7 @@
               }
             }
           },
-          "drawer_right_sub": {
+          "is_drawer_right_sub": {
             "type": "boolean",
             "default": true
           }
@@ -3718,8 +3717,7 @@
       "NewDrawerright": {
         "required": [
           "name",
-          "icon",
-          "drawer_right_sub"
+          "icon"
         ],
         "properties": {
           "name": {
@@ -3737,7 +3735,7 @@
           "drawerrightsub_id": {
             "type": "string"
           },
-          "drawer_right_sub": {
+          "is_drawer_right_sub": {
             "type": "boolean",
             "default": true
           }
@@ -3766,8 +3764,7 @@
             "required": [
               "id",
               "name",
-              "icon",
-              "drawer_right_sub"
+              "icon"
             ],
             "properties": {
               "id": {
@@ -3785,7 +3782,7 @@
               "drawerrightsub_id": {
                 "type": "string"
               },
-              "drawer_right_sub": {
+              "is_drawer_right_sub": {
                 "type": "boolean"
               }
             }
