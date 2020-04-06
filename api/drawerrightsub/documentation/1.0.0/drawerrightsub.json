@@ -546,11 +546,14 @@
               "to": {
                 "type": "string"
               },
-              "drawerrightsub_id": {
-                "type": "string"
-              },
-              "is_drawer_right_sub": {
+              "drawer_right_sub": {
                 "type": "boolean"
+              },
+              "drawerrightsubs_id": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               }
             }
           }

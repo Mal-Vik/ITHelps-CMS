@@ -25,13 +25,13 @@
     "to": {
       "type": "string"
     },
-    "drawerrightsub_id": {
-      "model": "drawerrightsub",
-      "via": "drawerright_id"
-    },
-    "is_drawer_right_sub": {
+    "drawer_right_sub": {
       "default": true,
       "type": "boolean"
+    },
+    "drawerrightsubs_id": {
+      "collection": "drawerrightsub",
+      "via": "drawerright_id"
     }
   }
 }

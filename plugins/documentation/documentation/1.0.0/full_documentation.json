@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/06/2020 11:09:08 PM"
+    "x-generation-date": "04/06/2020 11:51:45 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3687,30 +3687,33 @@
           "to": {
             "type": "string"
           },
-          "drawerrightsub_id": {
-            "required": [
-              "id",
-              "name",
-              "icon"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "icon": {
-                "type": "string"
-              },
-              "drawerright_id": {
-                "type": "string"
-              }
-            }
-          },
-          "is_drawer_right_sub": {
+          "drawer_right_sub": {
             "type": "boolean",
             "default": true
+          },
+          "drawerrightsubs_id": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name",
+                "icon"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "icon": {
+                  "type": "string"
+                },
+                "drawerright_id": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -3732,12 +3735,15 @@
           "to": {
             "type": "string"
           },
-          "drawerrightsub_id": {
-            "type": "string"
-          },
-          "is_drawer_right_sub": {
+          "drawer_right_sub": {
             "type": "boolean",
             "default": true
+          },
+          "drawerrightsubs_id": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
           }
         }
       },
@@ -3779,11 +3785,14 @@
               "to": {
                 "type": "string"
               },
-              "drawerrightsub_id": {
-                "type": "string"
-              },
-              "is_drawer_right_sub": {
+              "drawer_right_sub": {
                 "type": "boolean"
+              },
+              "drawerrightsubs_id": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
               }
             }
           }

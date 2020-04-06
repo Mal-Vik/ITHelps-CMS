@@ -24,7 +24,7 @@
     },
     "drawerright_id": {
       "model": "drawerright",
-      "via": "drawerrightsub_id"
+      "via": "drawerrightsubs_id"
     }
   }
 }

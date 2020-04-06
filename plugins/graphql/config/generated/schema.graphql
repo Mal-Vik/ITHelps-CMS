@@ -109,16 +109,16 @@ type Drawerright {
   name: String!
   icon: String!
   to: String
-  drawerrightsub_id: Drawerrightsub
-  is_drawer_right_sub: Boolean
+  drawer_right_sub: Boolean!
+  drawerrightsubs_id(sort: String, limit: Int, start: Int, where: JSON): [Drawerrightsub]
 }
 
 input DrawerrightInput {
   name: String!
   icon: String!
   to: String
-  drawerrightsub_id: ID
-  is_drawer_right_sub: Boolean
+  drawer_right_sub: Boolean!
+  drawerrightsubs_id: [ID]
 }
 
 """Navigation Sub Drawer Right"""
@@ -148,8 +148,8 @@ input editDrawerrightInput {
   name: String
   icon: String
   to: String
-  drawerrightsub_id: ID
-  is_drawer_right_sub: Boolean
+  drawer_right_sub: Boolean
+  drawerrightsubs_id: [ID]
 }
 
 input editDrawerrightsubInput {
