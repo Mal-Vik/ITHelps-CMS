@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "DrawerRightSub",
+  "info": {
+    "name": "drawerrightsub",
+    "description": "Navigation Sub Drawer Right"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "maxLength": 50,
+      "required": true,
+      "type": "string"
+    },
+    "icon": {
+      "maxLength": 50,
+      "required": true,
+      "type": "string",
+      "default": "lightbulb_outline"
+    },
+    "drawerright_id": {
+      "model": "drawerright",
+      "via": "drawerrightsub_id"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drawerrightsubs",
+      "handler": "Drawerrightsub.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drawerrightsubs/count",
+      "handler": "Drawerrightsub.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drawerrightsubs/:id",
+      "handler": "Drawerrightsub.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/drawerrightsubs",
+      "handler": "Drawerrightsub.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drawerrightsubs/:id",
+      "handler": "Drawerrightsub.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drawerrightsubs/:id",
+      "handler": "Drawerrightsub.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

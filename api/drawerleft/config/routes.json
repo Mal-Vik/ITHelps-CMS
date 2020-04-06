@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drawerlefts",
+      "handler": "Drawerleft.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drawerlefts/count",
+      "handler": "Drawerleft.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drawerlefts/:id",
+      "handler": "Drawerleft.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/drawerlefts",
+      "handler": "Drawerleft.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drawerlefts/:id",
+      "handler": "Drawerleft.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drawerlefts/:id",
+      "handler": "Drawerleft.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
