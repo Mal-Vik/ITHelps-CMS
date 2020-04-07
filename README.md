@@ -28,6 +28,26 @@ $ strapi start
 ## Project Documentation
  [Documentation v1.0.0](http://localhost:1337/documentation/v1.0.0)
 
+##Start mongodb in bash
+```sh
+brew services run mongodb-community
+brew services list
+brew services stop mongodb-community
+```
+
+##Start mongodb in zsh
+```sh
+alias mongod='brew services run mongodb-community'
+alias mongod-status='brew services list'
+alias mongod-stop='brew services stop mongodb-community'
+```
+& used
+```sh
+mongod
+mongod-status
+mongod-stop
+```
+
 ## License
 MIT
 
