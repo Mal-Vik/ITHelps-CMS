@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "drawer_right_sub",
+  "info": {
+    "name": "DrawerRightSub",
+    "icon": "arrow-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": false
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

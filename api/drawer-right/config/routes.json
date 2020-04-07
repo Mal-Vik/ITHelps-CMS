@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drawer-rights",
+      "handler": "drawer-right.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drawer-rights/count",
+      "handler": "drawer-right.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/drawer-rights/:id",
+      "handler": "drawer-right.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/drawer-rights",
+      "handler": "drawer-right.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drawer-rights/:id",
+      "handler": "drawer-right.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drawer-rights/:id",
+      "handler": "drawer-right.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
