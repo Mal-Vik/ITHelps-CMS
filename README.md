@@ -31,9 +31,11 @@ $ strapi start
 ##Start mongodb in bash
 ```sh
 brew services run mongodb-community
+brew services start mongodb-community
 brew services list
 brew services stop mongodb-community
 ```
+Отличие между run & start: start автозапуск при включении операционной системы (MacOS)
 
 ##Start mongodb in zsh
 ```sh
