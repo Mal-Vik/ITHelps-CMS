@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "css",
+  "info": {
+    "name": "CSS"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "code": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "string"
+    },
+    "big_text": {
+      "type": "text"
+    }
+  }
+}

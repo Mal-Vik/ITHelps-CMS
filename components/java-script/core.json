@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "df",
+  "info": {
+    "name": "Core",
+    "icon": "campground"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

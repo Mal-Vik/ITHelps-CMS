@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/css",
+      "handler": "css.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/css",
+      "handler": "css.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/css",
+      "handler": "css.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

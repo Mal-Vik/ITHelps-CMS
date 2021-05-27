@@ -26,6 +26,12 @@
       "type": "component",
       "repeatable": true,
       "component": "drawer.drawer-right-sub"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }
